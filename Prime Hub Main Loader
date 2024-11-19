@@ -1,18 +1,474 @@
-local places = {
-    [75972208642796] = {
-        message = "Jood Piece 2",
-        url = "pastebin.com/raw/K1rMzGWB"
-    },
-local places = {
-    [17545130379] = {
-        message = "Royal Sea",
-        url = "https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Script%20Anime%20Royale.lua"
-    },
-local place = places[game.PlaceId]
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-if place then
-    print(place.message)
-    loadstring(game:HttpGet(place.url))()
-else
-    game.Players.LocalPlayer:Kick("Not Support")
-end
+local Window = OrionLib:MakeWindow({Name = "Prime Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Sukuna",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Sukuna"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Sukuna"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Sukuna"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Sukuna"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Cid",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ShadowSword"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ShadowSword"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ShadowSword"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ShadowSword"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Rimuru",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("RimuruKatana"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("RimuruKatana"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("RimuruKatana"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("RimuruKatana"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Gojo",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Gojo"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Gojo"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Gojo"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Gojo"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Itachi",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Itachi"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Itachi"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Itachi"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Itachi"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Yuta",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("Yuta"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("Yuta"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("Yuta"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("Yuta"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Saitama",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Saitama"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Saitama"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Saitama"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Melee"):WaitForChild("Saitama"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Death Scythe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("DeathScythe"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("DeathScythe"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("DeathScythe"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Reaper Shot",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ReaperShot"):FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("REMOTESKILLS"):WaitForChild("Weapon"):WaitForChild("ReaperShot"):FireServer(unpack(args))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "SUNG JINWOO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Z",
+	Callback = function()
+      		local args = {
+    [1] = "Z"
+}
+
+game:GetService("ReplicatedStorage").REMOTESKILLS.Weapon.SungJinwoo:FireServer(unpack(args))
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X",
+	Callback = function()
+      		local args = {
+    [1] = "X"
+}
+
+game:GetService("ReplicatedStorage").REMOTESKILLS.Weapon.SungJinwoo:FireServer(unpack(args))
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C",
+	Callback = function()
+      		local args = {
+    [1] = "C"
+}
+
+game:GetService("ReplicatedStorage").REMOTESKILLS.Weapon.SungJinwoo:FireServer(unpack(args))
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "V",
+	Callback = function()
+      		local args = {
+    [1] = "V"
+}
+
+game:GetService("ReplicatedStorage").REMOTESKILLS.Weapon.SungJinwoo:FireServer(unpack(args))
+
+  	end    
+})
