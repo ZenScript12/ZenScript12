@@ -1,6 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("Z Hub | Anime Royale Op", "Default")
+local window = DrRayLibrary:Load("Prime Hub | Anime Royale Op", "Default")
 
 local tab = DrRayLibrary.newTab("Hallowen Capsule", "ImageIdHere")
 
