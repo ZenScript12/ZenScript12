@@ -1,0 +1,18 @@
+local places = {
+    [75972208642796] = {
+        message = "Jood Piece 2",
+        url = "pastebin.com/raw/K1rMzGWB"
+    },
+local places = {
+    [17545130379] = {
+        message = "Royal Sea",
+        url = "https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Script%20Anime%20Royale.lua"
+    },
+local place = places[game.PlaceId]
+
+if place then
+    print(place.message)
+    loadstring(game:HttpGet(place.url))()
+else
+    game.Players.LocalPlayer:Kick("Not Support")
+end
