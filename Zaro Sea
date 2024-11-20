@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/natoloe009/SCRIPT-ROBLOX/main/kavo%20mobile.txt", true))()
+
+local Window = Library.CreateLib("Prime Hub | ZARO SEA", "DarkTheme")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Beta Have Much Bug")
+
+Section:NewButton("Discord", "Join If U Want More Update", function()
+    setClipboard("https://discord.gg/4h7WF3En");
+end)
+
+local Tab = Window:NewTab("Teleport")
+
+local Section = Tab:NewSection("Coming Soon Much")
+
+Section:NewButton("Starter Island", "....", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-547.723083, 16.1326847, -57.9717026, -0.999809682, -5.6592786e-11, 0.0195088759, -4.24529384e-10, 1, -1.88558165e-08, -0.0195088759, -1.88605096e-08, -0.999809682)
+end)
+
+Section:NewButton("Mihawk Island", "....", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-572.067139, 30.7220764, -1476.48181, 0.968585134, -3.26973532e-10, -0.248682231, 3.10737186e-10, 1, -1.0454352e-10, 0.248682231, 2.39844845e-11, 0.968585134)
+end)
+
+Section:NewButton("Snow Island", "....", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1059.06909, 214.108459, -1883.81616, -0.715180278, -0, -0.698939979, -0, 0.999999881, -0, 0.698940039, 0, -0.715180218)
+end)
+
+Section:NewButton("Boss Islans", ".....", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2268.22461, 38.7384338, 1142.46204, 0.864736915, 0, 0.50222522, -0, 1.00000012, -0, -0.50222522, 0, 0.864736915)
+end)
