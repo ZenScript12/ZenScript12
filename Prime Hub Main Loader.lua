@@ -1,37 +1,44 @@
-local a = 0
-local Place = game.PlaceId
-local GameName = game:GetService("MarketplaceService"):GetProductInfo(Place).Name
-local baseURL = "https://raw.githubusercontent.com/meobeo8/elgato/a/"
-local placeScripts = {
-    [78681874345659] = "ErrorZone.lua",
-    [86639052909924] = "VersePiece.lua",
-    [89438510123061] = "AnimeShadow.lua",
-    [92998083931728] = "VersePieceRaid.lua"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "Home",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "Welcome to Prime Hub"
 }
-local scriptName = placeScripts[Place]
 
-if scriptName then
-    loadstring(game:HttpGet(baseURL .. scriptName))()
-    a = a + 1
-    if a > 2 then
-        game.Players.LocalPlayer:Kick("Executed too many times")
-    end
-else
-    game.Players.LocalPlayer:Kick("This game is not supported or has been removed")
-end
+local Tab = GUI:Tab{
+	Name = "Tab 1",
+	Icon = "rbxassetid://8569322835"
+}
 
-spawn(function()
-    while wait(1) do
-        pcall(function()
-            for _, v in pairs(game:GetService("Lighting"):GetChildren()) do
-                if v.Name == "Blur" then
-                    v:Destroy()
-                end
-            end
-        end)
-    end
-end)
+Tab:Button{
+	Name = "Anime Royale",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Script%20Anime%20Royale.lua'),true))() end
+}
 
-for _, v in next, getconnections(game:GetService("Players").LocalPlayer.Idled) do
-    v:Disable()
-end
+Tab:Button{
+	Name = "Royal Sea",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Prime%20Hub%20Main%20Loader'),true))() end
+}
+
+Tab:Button{
+	Name = "Zaro Sea",
+	Description = nil,
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Zaro%20Sea'),true))() end
+}
+
+
+
+
+
+
+GUI:Credit{
+	Name = "BY, ZEN, YUKI,",
+	Description = "CLICK DISCORD ICON IF U WANT JOIN MY DISCORD JOIN DISCORD OWNER THIS GUI TO",
+	V3rm = "link/name",
+	Discord = "https://discord.gg/9veqmRdW"
+}
