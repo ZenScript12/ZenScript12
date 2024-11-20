@@ -28,7 +28,7 @@ Tab:Button{
 Tab:Button{
 	Name = "Zaro Sea",
 	Description = nil,
-	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Zaro%20Sea'),true))() end
+	Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Zaro%20Sea'),true))() end
 }
 
 
