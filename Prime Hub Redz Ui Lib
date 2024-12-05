@@ -749,7 +749,7 @@ game:GetService("TweenService"):Create(uiStroke, TweenInfo.new(1, Enum.EasingSty
 	})
 	
 	local CloseButton = Create("ImageButton", {
-		Size = UDim2.new(0, 20, 0, 14),
+		Size = UDim2.new(0, 30, 0, 14),
 		Position = UDim2.new(1, -10, 0.5),
 		AnchorPoint = Vector2.new(1, 0.5),
 		BackgroundTransparency = 1,
