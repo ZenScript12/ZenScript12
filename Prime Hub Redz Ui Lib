@@ -789,7 +789,7 @@ game:GetService("TweenService"):Create(uiStroke, TweenInfo.new(1, Enum.EasingSty
 		
 		if Minimized then
 			MinimizeButton.Image = "rbxassetid://10734896206"
-			CreateTween({MainFrame, "Size", SaveSize, 0.35, true})
+			CreateTween({MainFrame, "Size", SaveSize, 0.25, true})
 			ControlSize1.Visible = true
 			ControlSize2.Visible = true
 			Minimized = false
@@ -809,7 +809,7 @@ game:GetService("TweenService"):Create(uiStroke, TweenInfo.new(1, Enum.EasingSty
 	end
 	function Window:AddMinimizeButton(Configs)
 		local Button = MakeDrag(Create("ImageButton", ScreenGui, {
-			Size = UDim2.fromOffset(35, 35),
+			Size = UDim2.fromOffset(45, 45),
 			Position = UDim2.fromScale(0.15, 0.15),
 			BackgroundTransparency = 1,
 			BackgroundColor3 = Theme["Color Hub 2"],
