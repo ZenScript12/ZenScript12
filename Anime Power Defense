@@ -1,3 +1,7 @@
+ice.RF.PurchasePortalItem:InvokeServer(unpack(args))
+
+end
+})
 local NameMap = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 
 redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Prime%20Hub%20Redz%20Ui%20Lib"))()
@@ -49,7 +53,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer(unpack(args))
- YA
 end
 })
 
@@ -75,7 +78,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer(unpack(args))
-wait(0.5)
+wait(1)
 ---dragon God
 local args = {
     [1] = "108",
