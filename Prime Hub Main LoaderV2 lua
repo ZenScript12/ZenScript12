@@ -39,3 +39,11 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScrip
 else
 print("place invalid")
 end
+
+
+local gameid = game.PlaceId
+if(gameid == 16841929299) then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Anime%20Power%20Defense'),true))()
+else
+print("place invalid")
+end
