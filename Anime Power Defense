@@ -1,7 +1,3 @@
-ice.RF.PurchasePortalItem:InvokeServer(unpack(args))
-
-end
-})
 local NameMap = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 
 redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Prime%20Hub%20Redz%20Ui%20Lib"))()
@@ -25,7 +21,7 @@ T1:AddDiscordInvite({
   Logo = "rbxassetid://140325582387989",
   Invite = "https://discord.gg/NHuKbnxqxh"
 })
-T2:AddSection({"| Auto Gacha"})
+T2:AddSection({"| Auto Gacha Normal"})
 T2:AddToggle({
   Name = "Auto Gacha",
   Default = false,
@@ -42,6 +38,50 @@ game:GetService("ReplicatedStorage").Events.Summon:FireServer(unpack(args))
 
     end
 end})
+
+T2:AddSection({"| Inf[Risky]"})
+T2:AddButton({"Inf Gems", function()
+game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer("5007",0/0)
+wait(1)
+---magical orb
+local args = {
+    [1] = "3049",
+    [2] = 0/0
+}
+
+game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer(unpack(args))
+end
+})
+
+
+T2:AddSection({"| DUPE [USE INF FIRST]"})
+T2:AddButton({"Dupe Rerol Trait", function()
+---astral remnant
+local args = {
+    [1] = "3029",
+    [2] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer(unpack(args))
+
+end
+})
+T2:AddSection({"| Inf Item Giver"})
+T2:AddButton({"Give Item/Unit", function()
+---magical orb
+local args = {
+    [1] = "3049",
+    [2] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer(unpack(args))
+wait(1)
+---dragon God
+local args = {
+    [1] = "108",
+    [2] = 1
+}
+
 T2:AddSection({"| Inf[Risky]"})
 T2:AddButton({"Inf Gems", function()
 game:GetService("ReplicatedStorage").Modules.Packages.Knit.Services.ShopService.RF.PurchasePortalItem:InvokeServer("5007",0/0)
