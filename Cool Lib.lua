@@ -24,7 +24,7 @@ end;
 
 local SettingToggle = {}
 
-local Name = "BTConfig.JSON"
+local Name = "PrimeConfig.JSON"
 
 pcall(function()
     if not pcall(function() readfile(Name) end) then
@@ -184,7 +184,7 @@ function Library:CreateWindow(hubname)
     end)
 
     Discord.MouseButton1Click:Connect(function()
-        (setclipboard or toclipboard)("https://discord.gg/25ms")
+        (setclipboard or toclipboard)("https://discord.gg/r7Bn7MCY")
         wait(.1)
         game:GetService("StarterGui"):SetCore("SendNotification",{
             Title = "Discord",
@@ -277,7 +277,7 @@ function Library:CreateWindow(hubname)
     toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
     toggle_Image.BorderSizePixel = 0
     toggle_Image.Size = UDim2.new(0, 40, 0, 40)
-    toggle_Image.Image = "http://www.roblox.com/asset/?id=12021503727"
+    toggle_Image.Image = "rbxassetid://140325582387989"
     toggle_Image.ImageColor3 = Color3.fromRGB(255, 0, 0)
 
     local minimizetog = false
