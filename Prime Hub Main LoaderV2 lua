@@ -2,42 +2,42 @@ local gameid = game.PlaceId
 if(gameid == 17545130379) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Prime%20Hub%20Main%20Loader'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 100340127867802) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Zaro%20Sea'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 75972208642796) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/JOOD%20Piece.lua'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 95295765150201) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Rock%20fruit%20new.lua'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 79962156072161) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Nam%20Piece%202.lua'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 116605585218149) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Go%20Fishing.lua'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 
@@ -45,12 +45,12 @@ local gameid = game.PlaceId
 if(gameid == 16841929299) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/Anime%20Power%20Defense'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
 
 local gameid = game.PlaceId
 if(gameid == 6461766546) then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/A%20Hero%20Destiny.lua'),true))()
 else
-game.Players.LocalPlayer:Kick("Game Not Supported Prime Hub")
+print("nill")
 end
