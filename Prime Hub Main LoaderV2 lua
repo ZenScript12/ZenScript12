@@ -47,3 +47,10 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScrip
 else
 print("place invalid")
 end
+
+local gameid = game.PlaceId
+if(gameid == 6461766546) then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZenScript12/ZenScript12/refs/heads/main/A%20Hero%20Destiny.lua'),true))()
+else
+print("place invalid")
+end
